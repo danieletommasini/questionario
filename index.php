@@ -22,7 +22,7 @@
             elaborare le risposte.<br><br>
             Ti preghiamo di rispondere con sincerità a tutte le domande perché il tuo giudizio è molto
             importante per la crescita ed il miglioramento della scuola.</p>
-            <form action="elaboration.php" method="POST">
+            <form class="text-center" action="elaboration.php" method="POST">
                 La classe che frequenti: 
                 <br>
                     <label class="radio-inline"><input type="radio" name="class" value="5D"> 5D</label>
