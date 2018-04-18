@@ -25,9 +25,28 @@
             importante per la crescita ed il miglioramento della scuola.</u></b><br><br>
             La classe che frequenti: 
             <br>
-                <label class="radio-inline"><input type="radio" name="class" value="5D"> 5D</label>
+                Classi prime <label class="radio-inline"><input type="radio" name="class" value="1A"> 1A</label>
+                <label class="radio-inline"><input type="radio" name="class" value="1B"> 1B</label>
+                <label class="radio-inline"><input type="radio" name="class" value="1C"> 1C</label>
+                <label class="radio-inline"><input type="radio" name="class" value="1D"> 1D</label>
+                <br>
+                Classi seconde <label class="radio-inline"><input type="radio" name="class" value="2A"> 2A</label>
+                <label class="radio-inline"><input type="radio" name="class" value="2B"> 2B</label>
+                <label class="radio-inline"><input type="radio" name="class" value="2C"> 2C</label>
+                <label class="radio-inline"><input type="radio" name="class" value="2D"> 2D</label>
+                <br>
+                Classi terze <label class="radio-inline"><input type="radio" name="class" value="3A"> 3A</label>
+                <label class="radio-inline"><input type="radio" name="class" value="3B"> 3B</label>
+                <label class="radio-inline"><input type="radio" name="class" value="3CMI"> 3CMI</label>
+                <br>
+                Classi quarte <label class="radio-inline"><input type="radio" name="class" value="4A"> 4A</label>
+                <label class="radio-inline"><input type="radio" name="class" value="4B"> 4B</label>
+                <label class="radio-inline"><input type="radio" name="class" value="4CMI"> 4CMI</label>
+                <br>
+                Classi quinte <label class="radio-inline"><input type="radio" name="class" value="5A"> 5A</label>
                 <label class="radio-inline"><input type="radio" name="class" value="5B"> 5B</label>
-            <br>
+                <label class="radio-inline"><input type="radio" name="class" value="5C"> 5C</label>
+            <br><br>
             
             <i><b>1. I locali della scuola sono accoglienti?</b></i><br>
                 <label class="radio-inline"><input type="radio" name="c1" value="1"> s&igrave, molto</label> <br>
