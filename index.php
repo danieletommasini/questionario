@@ -105,7 +105,7 @@
             <br>
             <i><b>10. Se hai bisogno di qualcosa i tuoi compagni ti aiutano?</b></i><br>
                 <label class="radio-inline"><input type="radio" name="c10" value="1"> moltissimo</label> <br>
-                <label class="radio-inline"><input type="radio" name="c10" value="2"> abbastnza</label> <br>
+                <label class="radio-inline"><input type="radio" name="c10" value="2"> abbastanza</label> <br>
                 <label class="radio-inline"><input type="radio" name="c10" value="3"> poco</label> <br>
                 <label class="radio-inline"><input type="radio" name="c10" value="4"> per niente</label> <br>
             <br>
