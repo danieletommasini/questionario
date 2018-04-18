@@ -45,7 +45,7 @@
                 <br>
                 Classi quinte <label class="radio-inline"><input type="radio" name="class" value="5A"> 5A</label>
                 <label class="radio-inline"><input type="radio" name="class" value="5B"> 5B</label>
-                <label class="radio-inline"><input type="radio" name="class" value="5C"> 5C</label>
+                <label class="radio-inline"><input type="radio" name="class" value="5D"> 5D</label>
             <br><br>
             
             <i><b>1. I locali della scuola sono accoglienti?</b></i><br>
@@ -241,16 +241,16 @@
                 <label class="radio-inline"><input type="radio" name="c32" value="4"> per niente</label> <br>
             <br>
             <i><b>33. Pensi che studiare sia:</b></i><br>
-                <label class="radio-inline"><input type="radio" name="c31" value="1"> sempre utile e a volte anche piacevole</label> <br>
-                <label class="radio-inline"><input type="radio" name="c31" value="2"> utile anche se faticoso</label> <br>
-                <label class="radio-inline"><input type="radio" name="c31" value="3"> poco utile e troppo faticoso</label> <br>
-                <label class="radio-inline"><input type="radio" name="c31" value="4"> inutile e faticoso</label> <br>
+                <label class="radio-inline"><input type="radio" name="c33" value="1"> sempre utile e a volte anche piacevole</label> <br>
+                <label class="radio-inline"><input type="radio" name="c33" value="2"> utile anche se faticoso</label> <br>
+                <label class="radio-inline"><input type="radio" name="c33" value="3"> poco utile e troppo faticoso</label> <br>
+                <label class="radio-inline"><input type="radio" name="c33" value="4"> inutile e faticoso</label> <br>
             <br>
             <i><b>34. Puoi indicare brevemente una cosa che ti piace proprio della tua scuola?</b></i><br>
-                <textarea rows="3" cols="70" name="comment" form="form1"></textarea><br>
+                <textarea rows="3" cols="70" name="34" form="form1"></textarea><br>
             <br>
             <i><b>35. Puoi indicare brevemente una cosa che non sopporti della tua scuola?</b></i><br>
-                <textarea rows="3" cols="70" name="comment" form="form1"></textarea><br>
+                <textarea rows="3" cols="70" name="35" form="form1"></textarea><br>
             <br>
                 <input type="submit" name="sendclass" value="INVIA"/>
             </form>
