@@ -18,7 +18,7 @@
             
         </head>
         <div class="container">
-            <form class="text-center" action="elaboration.php" method="POST">  
+            <form class="text-center" action="elaboration.php" method="POST" id="form1">  
             <br><br><b>Il questionario &egrave anonimo. Ti verr&agrave chiesto di quale classe fai parte perch&eacute questo serve per
             elaborare le risposte.<br>
             <u>Ti preghiamo di rispondere con sincerit&agrave a TUTTE le domande perch&eacute il tuo giudizio &egrave molto
@@ -247,10 +247,10 @@
                 <label class="radio-inline"><input type="radio" name="c33" value="4"> inutile e faticoso</label> <br>
             <br>
             <i><b>34. Puoi indicare brevemente una cosa che ti piace proprio della tua scuola?</b></i><br>
-                <textarea rows="3" cols="70" name="34" form="form1"></textarea><br>
+                <textarea rows="3" cols="70" name="c34" form="form1"></textarea><br>
             <br>
             <i><b>35. Puoi indicare brevemente una cosa che non sopporti della tua scuola?</b></i><br>
-                <textarea rows="3" cols="70" name="35" form="form1"></textarea><br>
+                <textarea rows="3" cols="70" name="c35" form="form1"></textarea><br>
             <br>
                 <input type="submit" name="sendclass" value="INVIA"/>
             </form>
