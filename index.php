@@ -21,7 +21,7 @@
             <form class="text-center" action="elaboration.php" method="POST">  
             <br><br><b>Il questionario &egrave anonimo. Ti verr&agrave chiesto di quale classe fai parte perch&eacute questo serve per
             elaborare le risposte.<br>
-            <u>Ti preghiamo di rispondere con sincerit&agrave a tutte le domande perch&eacute il tuo giudizio &egrave molto
+            <u>Ti preghiamo di rispondere con sincerit&agrave a TUTTE le domande perch&eacute il tuo giudizio &egrave molto
             importante per la crescita ed il miglioramento della scuola.</u></b><br><br>
             La classe che frequenti: 
             <br>
