@@ -24,7 +24,7 @@
                 echo "<script>location.reload();</script>";
             }
         ?>
-        <div class="container-fluid" style="margin-top: 5%">
+        <div class="container-fluid" style="margin-top: 4%">
             <h2 class="text-center">Questionario Fermi</h2>
             <form class="text-center" action="elaboration.php" method="POST" id="form1">  
             <br><br><b>Il questionario &egrave anonimo. Ti verr&agrave chiesto di quale classe fai parte perch&eacute questo serve per
