@@ -260,7 +260,7 @@
             <i><b>35. Puoi indicare brevemente una cosa che non sopporti della tua scuola?</b></i><br>
                 <textarea rows="3" cols="70" name="c35" form="form1"></textarea><br>
             <br>
-                <input type="submit" name="sendclass" value="INVIA"/>
+                <input type="submit" name="sendclass" class='btn btn-info' value="INVIA"/>
             </form>
         </div>
     </body>
