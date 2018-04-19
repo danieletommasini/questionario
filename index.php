@@ -21,6 +21,7 @@
             session_start();
             if(isset($_SESSION['form_message'])){
                 unset($_SESSION['form_message']);
+                echo "<script>location.reload();</script>";
             }
         ?>
         <div class="container">

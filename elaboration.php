@@ -10,7 +10,7 @@
       session_start();
       if(isset($_SESSION['form_message'])) {
 	      // display the message on screen, and then clear the message.
-	      print($_SESSION['form_message']);
+        echo "<script>alert('Il questionario è già stato inviato!');</script>";
       } else {
       
         $servername = "localhost";
