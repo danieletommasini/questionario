@@ -5,14 +5,27 @@
 
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+        
         <!-- Popper JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
             
-            
+        <script>
+            $(document).ready(function(){
+                
+                $(".hidden").hide();
+                
+                $(".hide").click(function(){
+                    $(".hidden").hide(); 
+                });
+                
+                $(".show").click(function(){
+                    $(".hidden").show();
+                });
+            });
+        </script>    
         
             
     </head>
@@ -33,27 +46,27 @@
             importante per la crescita ed il miglioramento della scuola.</u></b><br><br>
             La classe che frequenti: 
             <br>
-                Classi prime <label class="radio-inline"><input type="radio" name="class" value="1A"> 1A</label>
-                <label class="radio-inline"><input type="radio" name="class" value="1B"> 1B</label>
-                <label class="radio-inline"><input type="radio" name="class" value="1C"> 1C</label>
-                <label class="radio-inline"><input type="radio" name="class" value="1D"> 1D</label>
+                Classi prime <label class="radio-inline"><input type="radio" name="class" value="1A" class="hide"> 1A</label>
+                <label class="radio-inline"><input type="radio" name="class" value="1B" class="hide"> 1B</label>
+                <label class="radio-inline"><input type="radio" name="class" value="1C" class="hide"> 1C</label>
+                <label class="radio-inline"><input type="radio" name="class" value="1D" class="hide"> 1D</label>
                 <br>
-                Classi seconde <label class="radio-inline"><input type="radio" name="class" value="2A"> 2A</label>
-                <label class="radio-inline"><input type="radio" name="class" value="2B"> 2B</label>
-                <label class="radio-inline"><input type="radio" name="class" value="2C"> 2C</label>
-                <label class="radio-inline"><input type="radio" name="class" value="2D"> 2D</label>
+                Classi seconde <label class="radio-inline"><input type="radio" name="class" value="2A" class="hide"> 2A</label>
+                <label class="radio-inline"><input type="radio" name="class" value="2B" class="hide"> 2B</label>
+                <label class="radio-inline"><input type="radio" name="class" value="2C" class="hide"> 2C</label>
+                <label class="radio-inline"><input type="radio" name="class" value="2D" class="hide"> 2D</label>
                 <br>
-                Classi terze <label class="radio-inline"><input type="radio" name="class" value="3A"> 3A</label>
-                <label class="radio-inline"><input type="radio" name="class" value="3B"> 3B</label>
-                <label class="radio-inline"><input type="radio" name="class" value="3CMI"> 3CMI</label>
+                Classi terze <label class="radio-inline"><input type="radio" name="class" value="3A" class="show"> 3A</label>
+                <label class="radio-inline"><input type="radio" name="class" value="3B" class="show"> 3B</label>
+                <label class="radio-inline"><input type="radio" name="class" value="3CMI" class="show"> 3CMI</label>
                 <br>
-                Classi quarte <label class="radio-inline"><input type="radio" name="class" value="4A"> 4A</label>
-                <label class="radio-inline"><input type="radio" name="class" value="4B"> 4B</label>
-                <label class="radio-inline"><input type="radio" name="class" value="4CMI"> 4CMI</label>
+                Classi quarte <label class="radio-inline"><input type="radio" name="class" value="4A" class="show"> 4A</label>
+                <label class="radio-inline"><input type="radio" name="class" value="4B" class="show"> 4B</label>
+                <label class="radio-inline"><input type="radio" name="class" value="4CMI" class="show"> 4CMI</label>
                 <br>
-                Classi quinte <label class="radio-inline"><input type="radio" name="class" value="5A"> 5A</label>
-                <label class="radio-inline"><input type="radio" name="class" value="5B"> 5B</label>
-                <label class="radio-inline"><input type="radio" name="class" value="5D"> 5D</label>
+                Classi quinte <label class="radio-inline"><input type="radio" name="class" value="5A" class="show"> 5A</label>
+                <label class="radio-inline"><input type="radio" name="class" value="5B" class="show"> 5B</label>
+                <label class="radio-inline"><input type="radio" name="class" value="5D" class="show"> 5D</label>
             <br><br>
             
             <i><b>1. I locali della scuola sono accoglienti?</b></i><br>
@@ -227,9 +240,9 @@
                 <label class="radio-inline"><input type="radio" name="c28" value="4"> mai</label> <br>
             <br>
             <i><b>29. (per le classi terze, quarte e quinte)La scuola potrebbe fare di pi&ugrave per rendere efficace l'alternanza scuola-lavoro?</b></i><br>
-                <label class="radio-inline"><input type="radio" name="c29" value="1"> s&igrave, molto di pi&ugrave e meglio</label> <br>
-                <label class="radio-inline"><input type="radio" name="c29" value="2"> potrebbe fare un po' di pi&ugrave e un po' meglio</label> <br>
-                <label class="radio-inline"><input type="radio" name="c29" value="3"> non potrebbe fare di pi&ugrave</label> <br>
+                <label class="radio-inline hidden"><input type="radio" name="c29" value="1"> s&igrave, molto di pi&ugrave e meglio</label> <br>
+                <label class="radio-inline hidden"><input type="radio" name="c29" value="2"> potrebbe fare un po' di pi&ugrave e un po' meglio</label> <br>
+                <label class="radio-inline hidden"><input type="radio" name="c29" value="3"> non potrebbe fare di pi&ugrave</label> <br>
             <br>
             <i><b>30. Pensi che i compiti assegnati dagli insegnanti siano:</b></i><br>
                 <label class="radio-inline"><input type="radio" name="c30" value="1"> troppi</label> <br>
