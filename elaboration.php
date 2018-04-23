@@ -15,7 +15,7 @@
       
         $servername = "localhost";
         $username = "root";
-        $password = "admini";
+        $password = "";
         $dbname = "questionario";
         
         try {
